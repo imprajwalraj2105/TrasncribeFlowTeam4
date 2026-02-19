@@ -101,7 +101,8 @@ print("Loading Whisper Model...")
 asr_model = whisper.load_model("tiny") 
 
 print("Loading Summarization Model...")
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("text2text-generation", model="facebook/bart-large-cnn")
+
 
 # -------------------- Helper Functions --------------------
 
@@ -514,3 +515,4 @@ def serve_file(filename):
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000, use_reloader=False)
+
