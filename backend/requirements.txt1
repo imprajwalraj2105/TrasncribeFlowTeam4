@@ -1,8 +1,0 @@
-Flask
-flask-cors
-imageio-ffmpeg
-deep-translator
-clerk-backend-api
-requests
-python-dotenv
-gunicorn

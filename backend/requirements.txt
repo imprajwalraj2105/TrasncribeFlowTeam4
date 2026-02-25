@@ -1,0 +1,12 @@
+Flask==3.0.3
+Flask-Cors==5.0.0
+imageio-ffmpeg==0.5.1
+openai-whisper==20231117
+transformers==4.45.1
+librosa==0.10.2.post1
+torch==2.4.1
+numpy==2.1.1
+deep-translator==1.11.4
+clerk-backend-api==1.1.0
+requests==2.32.3
+
